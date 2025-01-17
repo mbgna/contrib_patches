@@ -542,6 +542,19 @@ index 15f95aa..2f11187 100644
 -version: '3.0.0-alpha4'
 -project: 'tb_megamenu'
 -datestamp: 1713052617
+diff --git a/tb_megamenu.libraries.yml b/tb_megamenu.libraries.yml
+index a626010..1d0c2d8 100644
+--- a/tb_megamenu.libraries.yml
++++ b/tb_megamenu.libraries.yml
+@@ -11,7 +11,7 @@ form.configure-megamenu:
+     - core/drupalSettings
+ 
+ base:
+-  version: 1.x
++  version: 1.0.x
+   css:
+     theme:
+       dist/base.css: {}
 diff --git a/tb_megamenu.module b/tb_megamenu.module
 index 47ec424..fa5cb7f 100644
 --- a/tb_megamenu.module
